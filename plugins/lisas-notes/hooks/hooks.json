@@ -1,0 +1,16 @@
+{
+  "description": "Auto-commit on Stop using last line as commit message",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/auto-commit.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

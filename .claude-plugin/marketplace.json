@@ -1,0 +1,13 @@
+{
+  "name": "irbull-plugins",
+  "owner": {
+    "name": "Ian Bull"
+  },
+  "plugins": [
+    {
+      "name": "lisas-notes",
+      "source": "./plugins/lisas-notes",
+      "description": "Records each change Claude makes"
+    }
+  ]
+}
